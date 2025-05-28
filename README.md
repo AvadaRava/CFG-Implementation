@@ -6,7 +6,9 @@ Context- Free Grammar Implementation in python
 ## 🔍 Descriere
 
 Acest proiect implementează funcționalități esențiale pentru lucrul cu o gramatică independentă de context (CFG).
+
 Gramatica folosită este: S → aSb | ε
+
 Limbajul generat este: L = { aⁿbⁿ | n ≥ 0 }
 ## ✅ Ce face fiecare componentă
 
