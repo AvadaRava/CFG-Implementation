@@ -23,3 +23,13 @@ Limbajul generat este: L = { aⁿbⁿ | n ≥ 0 }
 
 ## Cum se foloseste: 
 Se ruleaza in terminal tema3.py. Este nevoie de Python3.x instalat.
+
+## Din ce motiv nu este  L= {  aⁿbⁿcⁿ | n ≥ 0 } CFG
+
+Presupunem că L este independent de context
+
+Alegem un șir suficient de lung (de ex. aᵖbᵖcᵖ)
+
+Orice încercare de a repeta o parte a șirului va distruge balanța dintre a, b și c.
+
+Obținem contradicție ⇒ presupunerea inițială este falsă
