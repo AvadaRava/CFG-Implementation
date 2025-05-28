@@ -1,8 +1,6 @@
 # CFG-Implementation
 Context- Free Grammar Implementation in python
 
-# Tema 3 - Limbaje Formale și Automate
-
 ## Descriere
 
 Acest proiect implementează funcționalități esențiale pentru lucrul cu o gramatică independentă de context (CFG).
