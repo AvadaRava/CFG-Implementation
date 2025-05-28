@@ -135,7 +135,7 @@ def main():
     print(f"Reguli de productie: S -> aSb | ε")
     
     # --- Sarcina 2 ---
-    print("\n[Sarcina 2] Generarea a 10 string-uri aleatorii (lungime max. 10):")
+    print("\n[Sarcina 2] Generarea a maxim 10 string-uri aleatorii (lungime max. 10):")
     generated = cfg.generate_strings(max_strings=10, max_len=10)
     print(generated)
     
