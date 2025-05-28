@@ -1,16 +1,16 @@
 # CFG-Implementation
 Context- Free Grammar Implementation in python
 
-# 📚 Tema 3 - Limbaje Formale și Automate
+# Tema 3 - Limbaje Formale și Automate
 
-## 🔍 Descriere
+## Descriere
 
 Acest proiect implementează funcționalități esențiale pentru lucrul cu o gramatică independentă de context (CFG).
 
 Gramatica folosită este: S → aSb | ε
 
 Limbajul generat este: L = { aⁿbⁿ | n ≥ 0 }
-## ✅ Ce face fiecare componentă
+## Ce face fiecare componentă
 
 | Funcționalitate       | Descriere |
 |-----------------------|-----------|
@@ -20,3 +20,6 @@ Limbajul generat este: L = { aⁿbⁿ | n ≥ 0 }
 | Rightmost Derivation  | Arată pașii derivării folosind înlocuirea celui mai din dreapta neterminal |
 | Recognizer            | Verifică dacă un șir aparține limbajului definit |
 | Bonus: aⁿbⁿcⁿ Tester   | Testează apartenența unui șir la limbajul { aⁿbⁿcⁿ | n ≥ 1 } — limbaj care **nu este context-free** |
+
+## Cum se foloseste: 
+Se ruleaza in terminal tema3.py. Este nevoie de Python3.x instalat.
