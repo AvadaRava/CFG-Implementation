@@ -1,0 +1,61 @@
+### Datele de intrare pentru stringuri se modifica in test_strings, respectiv bonus_strings pentru partea 5.
+
+
+## Exemplu de afisare: 
+
+--- Tema: Limbaje Formale si Automate ---
+
+[Sarcina 1] Definirea CFG:
+Non-terminale: {'S'}
+Terminale: {'a', 'b'}
+Simbol de start: S
+Reguli de productie: S -> aSb | ε
+
+[Sarcina 2] Generarea a 10 string-uri aleatorii (lungime max. 10):
+['ε', 'aaaaabbbbb', 'aaabbb', 'aabb', 'aaaabbbb', 'ab']
+
+[Sarcina 3 & 4] Derivare si Verificare Apartenenta:
+
+Testare string: 'aabb'
+Este membru al L(G)? -> True
+Derivarea stanga pentru 'aabb':
+S -> aSb -> aaSbb -> aabb
+Derivarea dreapta pentru 'aabb':
+S -> aSb -> aaSbb -> aabb
+
+Testare string: 'ab'
+Este membru al L(G)? -> True
+Derivarea stanga pentru 'ab':
+S -> aSb -> ab
+Derivarea dreapta pentru 'ab':
+S -> aSb -> ab
+
+Testare string: 'ε'
+Este membru al L(G)? -> True
+Derivarea stanga pentru 'ε':
+S -> ε
+Derivarea dreapta pentru 'ε':
+S -> ε
+
+Testare string: 'aaabbb'
+Este membru al L(G)? -> True
+Derivarea stanga pentru 'aaabbb':
+S -> aSb -> aaSbb -> aaaSbbb -> aaabbb
+Derivarea dreapta pentru 'aaabbb':
+S -> aSb -> aaSbb -> aaaSbbb -> aaabbb
+
+Testare string: 'abb'
+Este membru al L(G)? -> False
+
+Testare string: 'aab'
+Este membru al L(G)? -> False
+
+[Sarcina 5] Bonus: Recognizer pentru L = {a^n b^n c^n | n >= 1}:
+Este 'abc' în L = {a^n b^n c^n | n >= 1}? -> True
+Este 'aabbcc' în L = {a^n b^n c^n | n >= 1}? -> True
+Este 'aaabbbccc' în L = {a^n b^n c^n | n >= 1}? -> True
+Este 'ab' în L = {a^n b^n c^n | n >= 1}? -> False
+Este 'acb' în L = {a^n b^n c^n | n >= 1}? -> False
+Este 'aabbc' în L = {a^n b^n c^n | n >= 1}? -> False
+Este 'aaabbb' în L = {a^n b^n c^n | n >= 1}? -> False
+PS C:\Users\avada>
