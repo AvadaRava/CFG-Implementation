@@ -1,7 +1,8 @@
 ### Datele de intrare pentru stringuri se modifica in test_strings, respectiv bonus_strings pentru partea 5.
 
 
-## Exemplu de afisare: 
+## Exemplu de afisare:
+
 
 --- Tema: Limbaje Formale si Automate ---
 
@@ -58,4 +59,6 @@ Este 'ab' în L = {a^n b^n c^n | n >= 1}? -> False
 Este 'acb' în L = {a^n b^n c^n | n >= 1}? -> False
 Este 'aabbc' în L = {a^n b^n c^n | n >= 1}? -> False
 Este 'aaabbb' în L = {a^n b^n c^n | n >= 1}? -> False
-PS C:\Users\avada>
+
+Pentru test_strings = ["aabb", "ab", "", "aaabbb", "abb", "aab"]
+       bonus_strings = ["abc", "aabbcc", "aaabbbccc", "ab", "acb", "aabbc", "aaabbb"]
