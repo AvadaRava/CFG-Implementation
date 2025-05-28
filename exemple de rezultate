@@ -12,7 +12,7 @@ Terminale: {'a', 'b'}
 Simbol de start: S
 Reguli de productie: S -> aSb | ε
 
-[Sarcina 2] Generarea a 10 string-uri aleatorii (lungime max. 10):
+[Sarcina 2] Generarea a maxim 10 string-uri aleatorii (lungime max. 10):
 ['ε', 'aaaaabbbbb', 'aaabbb', 'aabb', 'aaaabbbb', 'ab']
 
 [Sarcina 3 & 4] Derivare si Verificare Apartenenta:
